@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 public static class Server
 {
-    private static Dictionary<string, IApi> ApiDictionaryGet = new()
-    {
-        { "",  },
-        { "Key2", }
-    };
+    private static readonly List<IApi> ApiList =
+    [
+        new DefaultApi(),
+        new TestApi()
+    ];
     
     public static async Task StartAsync(string[] args)
     {
@@ -26,19 +26,20 @@ public static class Server
         {
             var path = context.Request.Path;
             var method = context.Request.Method;
+            bool apiFufilled = false;
             
-            if (method == HttpMethods.Get && path == "/")
+            foreach (IApi api in ApiList)
             {
-                context.Response.ContentType = "text/plain";
-                await context.Response.WriteAsync("Server is actively listening!");
+                if (path == api.GetUrl() && method == api.GetMethod())
+                {
+                    context.Response.ContentType = "application/json";
+                    await context.Response.WriteAsync(api.Response(context));
+                    apiFufilled = true;
+                    break;
+                }
             }
-            else if (method == HttpMethods.Get && path == "/data")
-            {
-                await Task.Delay(50);
-                context.Response.ContentType = "application/json";
-                await context.Response.WriteAsync("{\"status\": \"success\", \"message\": \"Async response\"}");
-            }
-            else
+            
+            if (!apiFufilled)
             {
                 context.Response.StatusCode = StatusCodes.Status404NotFound;
                 await context.Response.WriteAsync("404 - Endpoint Not Found");

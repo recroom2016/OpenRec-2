@@ -1,14 +1,21 @@
 namespace OpenRec_2.API;
 
+using Microsoft.AspNetCore.Http;
+
 public class DefaultApi : IApi
 {
-    public string Response()
+    public string Response(HttpContext context)
     {
-        //new commit
+        return "Hello! This is a OpenRec-2!";
     }
 
     public string GetUrl()
     {
-        throw new NotImplementedException();
+        return "/";
+    }
+
+    public string GetMethod()
+    {
+        return HttpMethods.Get;
     }
 }
