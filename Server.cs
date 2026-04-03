@@ -11,7 +11,11 @@ public static class Server
     private static readonly List<IApi> ApiList =
     [
         new DefaultApi(),
-        new TestApi()
+        new TestApi(),
+        new CharadesWordsApi(),
+        new AmplitudeApi(),
+        new ConfigV2Api(),
+        new VersionCheckApi()
     ];
     
     public static async Task StartAsync(string[] args)
@@ -46,7 +50,7 @@ public static class Server
             }
         });
 
-        // Start the server and block the thread here so it keeps running
+        // asgfhosa ckjabvuciba bnc vbakuyfcp/al vchjnavboaiv ashgbc ajiakjb cyab gffff
         await app.RunAsync();
     }
 }
