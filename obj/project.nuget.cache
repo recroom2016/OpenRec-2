@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FCfsCeIt4og=",
+  "dgSpecHash": "UN/1mjKMFQA=",
   "success": true,
-  "projectFilePath": "D:\\Users\\Admin\\Documents\\GitHub\\OpenRec-2\\OpenRec2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Users\\Admin\\Documents\\GitHub\\OpenRec2\\OpenRec2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\figgle\\0.6.6\\figgle.0.6.6.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\figgle.fonts\\0.6.6\\figgle.fonts.0.6.6.nupkg.sha512"
+  ],
   "logs": []
 }

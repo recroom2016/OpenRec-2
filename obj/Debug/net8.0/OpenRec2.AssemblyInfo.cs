@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenRec2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+713e0579c1b1b265e4bd388eee701052b346691d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenRec2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenRec2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
