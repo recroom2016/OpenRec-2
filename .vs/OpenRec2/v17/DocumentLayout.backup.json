@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\Admin\\Documents\\GitHub\\OpenRec2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF9F709-6896-4665-9B99-1FE66ACF1A08}|OpenRec2.csproj|d:\\users\\admin\\documents\\github\\openrec2\\controllers\\nameservercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF9F709-6896-4665-9B99-1FE66ACF1A08}|OpenRec2.csproj|solutionrelative:controllers\\nameservercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF9F709-6896-4665-9B99-1FE66ACF1A08}|OpenRec2.csproj|d:\\users\\admin\\documents\\github\\openrec2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF9F709-6896-4665-9B99-1FE66ACF1A08}|OpenRec2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF9F709-6896-4665-9B99-1FE66ACF1A08}|OpenRec2.csproj|d:\\users\\admin\\documents\\github\\openrec2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0DF9F709-6896-4665-9B99-1FE66ACF1A08}|OpenRec2.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF9F709-6896-4665-9B99-1FE66ACF1A08}|OpenRec2.csproj|d:\\users\\admin\\documents\\github\\openrec2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0DF9F709-6896-4665-9B99-1FE66ACF1A08}|OpenRec2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NameServerController.cs",
+              "DocumentMoniker": "D:\\Users\\Admin\\Documents\\GitHub\\OpenRec2\\Controllers\\NameServerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NameServerController.cs",
+              "ToolTip": "D:\\Users\\Admin\\Documents\\GitHub\\OpenRec2\\Controllers\\NameServerController.cs",
+              "RelativeToolTip": "Controllers\\NameServerController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA0wBQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T21:08:03.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Users\\Admin\\Documents\\GitHub\\OpenRec2\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Users\\Admin\\Documents\\GitHub\\OpenRec2\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwCEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-09T20:57:30.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Users\\Admin\\Documents\\GitHub\\OpenRec2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Users\\Admin\\Documents\\GitHub\\OpenRec2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-09T20:57:27.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\Admin\\Documents\\GitHub\\OpenRec2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Users\\Admin\\Documents\\GitHub\\OpenRec2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwC8AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T20:47:04.138Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

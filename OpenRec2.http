@@ -1,0 +1,6 @@
+@OpenRec2_HostAddress = http://localhost:5280
+
+GET {{OpenRec2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
